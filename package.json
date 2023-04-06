@@ -1,0 +1,22 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "react, namaste react",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VikasMirani/namaste-react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Vikas Mirani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VikasMirani/namaste-react/issues"
+  },
+  "homepage": "https://github.com/VikasMirani/namaste-react#readme"
+}
