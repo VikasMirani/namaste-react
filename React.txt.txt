@@ -1,0 +1,22 @@
+1. What are Keys in React?
+
+- Whenever you are looping any elements of array, you need to provide unique key to each element in order for react to identify the elements.
+Do not use index as key.
+
+For eg - If you have 3 elements in an array and you have rendered all the 3 elements and now if you add a new element in array, react will just render that new element in DOM rather then rendering whole array again. It will optimize the performance also.
+
+2. What is Monolith Architecture?
+
+- A Monolith Architecture menas, everything is build as a single, self-contained unit. Your Api, UI, Authentication, Database everything together. 
+
+So If you want to change something in UI layer, you need to re-deploy the whole thing backend, database everything again together.
+
+3. What is Microservices Architecture?
+
+- A Microservices Architecture means, you have different services for each part. Frontend, backend, Authentication, Email service.
+
+- You will need to deploy each Microservices independently. On different ports we can deploy different services
+
+- If something goes wrong, you will only break one small microservice, which is less problematic than the entire project. It’s also much easier to rollback one small microservices than and entire monolith app.
+
+4. 
